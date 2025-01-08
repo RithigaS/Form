@@ -1,0 +1,56 @@
+
+body{
+    background-image: url('i1.jpg');
+    margin-left: 580px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+}
+
+form{
+    border-radius: 15px;
+    background-color:rgb(226, 160, 221);
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form label{
+    font-weight: 700;
+    color: rgb(10, 110, 197);
+    font-family: cursive;
+    font-size: larger;
+    text-align: left;
+    margin: 1px;
+}
+form input{
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+}
+form label input{
+   text-align:justify;
+
+}
+form fieldset legend{
+   
+    text-align: center;
+    border: 1px solid black;
+}
+form fieldset{
+    
+   
+    justify-content: center;
+    height: 1500px;
+    width:700px;
+    border: 5px solid black;
+}
+form fieldset button{
+   background-color: rgb(174, 225, 231);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border-style: double;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    height: 30px;
+    width: 200px;
+}
